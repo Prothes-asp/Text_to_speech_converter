@@ -1,0 +1,21 @@
+h2,button,#txt{
+  font-family : "Lobster";
+}
+body{
+  background-color: black;
+}
+
+.developed{
+  color: lightgray;
+  /* opacity: 0.3; */
+}
+
+.mainArea {
+  /* background-color: #0bceaf; */
+  width: 90%;
+  max-width: 37.5em;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+  /* box-shadow: 0 1.87em 3.75em rgba(2, 14, 44, 0.2); */
+}

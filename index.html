@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text To Speech Converter</title>
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Atomic+Age&family=Croissant+One&family=Lobster&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"/>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- Jquery For Sweet Alert When User Empty Filed Submit -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.js"></script>
+</head>
+<body>
+
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+
+                <div class="mainArea position-absolute p-4 rounded">
+                  <div class="d-flex justify-content-between mb-3">
+                    <h2 class="text-light fs-3">Text To Speech</h2>
+                    <div> 
+                      <button class="btn btn-primary" id="resume">
+                        <i class="fa-solid fa-play"></i>
+                      </button>
+                      <button class="btn btn-primary" id="pause">
+                        <i class="fa-solid fa-pause"></i>
+                      </button>
+                    </div>
+                  </div>
+                  <textarea placeholder="Enter some text here.." id="txt" rows="6" class="form-control bg-dark text-white">Developed By Prothes</textarea>
+                  <div class="d-grid mt-3">
+                    <button id="submit" type="submit" class="btn btn-primary">Submit</button>
+                  </div>
+                  <h2 class="text-light text-end fs-3 mt-3 developed">Developed By Prothes</h2>
+                </div>
+
+              
+
+            </div>
+        </div>
+    </div>
+
+    
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- Custom JS -->
+    <script src="main.js"></script>
+    <!-- Sweet Alert -->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</body>
+</html>
